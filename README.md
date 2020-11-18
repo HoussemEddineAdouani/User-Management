@@ -14,7 +14,7 @@ which the functionality group of which will be the following:
   - Add user(s). # many_ways 
   - Update user(s).
   - Delete user(s).
-  - Get all user(s).
+  - Get user(s).
 - Authenticate a user.
 - Connect a user.
 - Export a user's data in pdf
