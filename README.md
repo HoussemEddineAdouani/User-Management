@@ -22,6 +22,7 @@ which the functionality group of which will be the following:
 
 ##Explain the complex functionalities (in terms of processing)
 
+
 **Adding users in two ways :**
    - Manual Addition.
    - Import of data concerning a set of users from an Excel file.
