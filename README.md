@@ -57,10 +57,32 @@ The other steps are explained in the code.
 $ pip3 install pipenv
 ```
 
->Flask
+> Flask , flask_login
 ```
-(user-management)$ pipenv install flask
+(user-management)$ pipenv install flask flask_login
 ```
+
+> Psycopg is a PostgreSQL adapter for the Python programming language (Postgresql already installed).
+```
+(user-management)$ pipenv psycopg2
+```
+
+> The binary package is a practical choice for development and testing but in production it is advised to use the package built from sources.
+```
+(user-management)$ pipenv psycopg2-binary
+
+> SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
+||
+Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to your application. It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common tasks.
+```
+(user-management)$ pipenv install flask-sqlalchemy
+```
+
+> Gunicorn, for “Green Unicorn”, is a WSGI HTTP web server written in Python and available for Unix.
+||
+The Web Server Gateway Interface (WSGI) is a specification that defines an interface between servers and web applications for the Python language.
+```
+(user-management)$ pipenv install gunicorn
 
 
 
