@@ -27,4 +27,13 @@ which the functionality group of which will be the following:
    - Import of data concerning a set of users from an Excel file.
      - Condition: Emails are validated in terms of syntax etc. (The contribution of [Mailboxlayer API](https://mailboxlayer.com/documentation))
      - To ensure the import, I am in the process of introducing the [Flask-Excel](http://flask.pyexcel.org/en/latest/) dependency.
+   
+   
+2. Connect a user :
+   - To connect a user, I introduced the FLask-login dependency.
+   - Flask-Login to manage user sessions.
+        - To integrate it: 
+        
+        
+3. Export a user's data in pdf:
 
