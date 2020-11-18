@@ -52,5 +52,17 @@ The other steps are explained in the code.
    
 ## Annex
 ### Preparation of the work environment
+> Virtual environment python 
+```
+$ pip3 install pipenv
+```
+
+>Flask
+```
+(user-management)$ pipenv install flask
+```
+
+
+
 
 
