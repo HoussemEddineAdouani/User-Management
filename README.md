@@ -70,7 +70,6 @@ $ pip3 install pipenv
 > The binary package is a practical choice for development and testing but in production it is advised to use the package built from sources.
 ```
 (user-management)$ pipenv psycopg2-binary
-
 ```
 
 > SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
@@ -85,8 +84,6 @@ Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to y
 The Web Server Gateway Interface (WSGI) is a specification that defines an interface between servers and web applications for the Python language.
 ```
 (user-management)$ pipenv install gunicorn
-
-
-
+```
 
 
