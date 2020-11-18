@@ -20,5 +20,5 @@ which the functionality group of which will be the following:
 - Connect a user.
 - Export a user's data in pdf
 
-##Explain the complex functionalities (in terms of processing)
+## Explain the complex functionalities (in terms of processing)
 
