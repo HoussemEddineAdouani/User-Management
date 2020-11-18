@@ -47,7 +47,7 @@ The other steps are explained in the code.
         
         
 3. Export a user's data in pdf:
-   - To export a pdf connecting user information, I introtuit [PDFKit](https://pypi.org/project/pdfkit/) (adapted version of ruby PDFKit library).
+   - To export a pdf connecting user information, I introtuce [PDFKit](https://pypi.org/project/pdfkit/) (adapted version of ruby PDFKit library).
    - I used the global `response` variable to manipulate the content of the PDF.
    
 ## Annex
