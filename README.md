@@ -1,7 +1,8 @@
 # User-Management
 ### Introduction
 
-#####Hello everyone ! :bowtie: 
+#####Hello everyone ! 
+:bowtie: 
 
 `This applicaton was developped with The micro-framework Falsk.`
 
