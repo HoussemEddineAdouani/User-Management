@@ -22,13 +22,13 @@ which the functionality group of which will be the following:
 
 ##Explain the complex functionalities (in terms of processing)
 
-1. Adding users in two ways :
+**Adding users in two ways :**
    - Manual Addition.
    - Import of data concerning a set of users from an Excel file.
      - Condition: Emails are validated in terms of syntax etc. (The contribution of [Mailboxlayer API](https://mailboxlayer.com/documentation))
      - To ensure the import, I am in the process of introducing the [Flask-Excel](http://flask.pyexcel.org/en/latest/) dependency.
 
-2. Connect a user :
+**Connect a user :**
    - To connect a user, I introduced the FLask-login dependency.
    - Flask-Login to manage user sessions.
         - To integrate it: 
@@ -39,6 +39,8 @@ which the functionality group of which will be the following:
 $ pip3 install flask-login
 ```
 The other steps are explained in the code.
+
+**Export a user's data in pdf:**
 
 ##Annex
 
