@@ -26,17 +26,21 @@ which the functionality group of which will be the following:
    - Manual Addition.
    - Import of data concerning a set of users from an Excel file.
      - Condition: Emails are validated in terms of syntax etc. (The contribution of [Mailboxlayer API](https://mailboxlayer.com/documentation))
+     - To ensure the import, I am in the process of introducing the [Flask-Excel](http://flask.pyexcel.org/en/latest/) dependency.
 
-2. Authentication :
-   - To authenticate a user, I introduced the FLask-login dependency.
+2. Connect a user :
+   - To connect a user, I introduced the FLask-login dependency.
+   - Flask-Login to manage user sessions.
         - To integrate it: 
          
-
-
-> Terminal command
+> Installation
 >
 ```
 $ pip3 install flask-login
 ```
-The other steps are commented out in the code.
+The other steps are explained in the code.
 
+##Annex
+
+##Support
+https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login-fr
