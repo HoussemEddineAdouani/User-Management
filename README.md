@@ -33,11 +33,11 @@ which the functionality group of which will be the following:
    - To connect a user, I introduced the FLask-login dependency.
    - Flask-Login to manage user sessions.
         - To integrate it: 
-        > Installation
-        >
-        ```
-        $ pip3 install flask-login
-        ```
+          > Installation
+          >
+          ```
+          $ pip3 install flask-login
+          ```
         
         
 3. Export a user's data in pdf:
