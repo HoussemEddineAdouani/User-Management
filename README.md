@@ -41,11 +41,12 @@ which the functionality group of which will be the following:
           > Importations
           >python
           ```
-          from flask_login import 
+          from flask_login import login_user, login_required, current_user
           ```
          
 The other steps are explained in the code.
         
         
 3. Export a user's data in pdf:
-
+   - To export a pdf connecting user information, I introtuit [PDFKit](https://pypi.org/project/pdfkit/) (adapted version of ruby PDFKit library).
+   
