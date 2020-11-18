@@ -38,6 +38,13 @@ which the functionality group of which will be the following:
           ```
           $ pip3 install flask-login
           ```
+          > Importations
+          >python
+          ```
+          from flask_login import 
+          ```
+         
+The other steps are explained in the code.
         
         
 3. Export a user's data in pdf:
