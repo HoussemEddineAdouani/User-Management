@@ -86,4 +86,7 @@ The Web Server Gateway Interface (WSGI) is a specification that defines an inter
 (user-management)$ pipenv install gunicorn
 ```
 
+## For credibility
+
+support : https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login-fr
 
