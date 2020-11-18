@@ -71,6 +71,8 @@ $ pip3 install pipenv
 ```
 (user-management)$ pipenv psycopg2-binary
 
+```
+
 > SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.
 ||
 Flask-SQLAlchemy is an extension for Flask that adds support for SQLAlchemy to your application. It aims to simplify using SQLAlchemy with Flask by providing useful defaults and extra helpers that make it easier to accomplish common tasks.
