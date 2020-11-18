@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div style="padding-top: 100px;padding-bottom:200px;">
+
+    <div class="column box is-4 is-offset-4">
+          <div class="columns is-mobile is-centered">
+            <div class="column is-half" style="padding-left:50px;">
+               <h3 class="title">Update Profile</h3>
+            </div>
+          </div>
+
+       <form action="/update" method="post">
+
+      <div class="field">
+        <div class="control">
+            <input class="input is-medium" type="text" name="first_name" placeholder="First name">
+        </div>
+      </div>
+
+       <div class="field">
+          <div class="control">
+            <input class="input is-medium" type="text" name="last_name" placeholder="Last name">
+          </div>
+       </div>
+
+       <div class="field">
+         <div class="control">
+            <input class="input is-medium" type="email" name="email" placeholder="Email">
+         </div>
+       </div>
+
+       <div class="field">
+          <div class="control">
+            <input class="input is-medium" type="password" name="password" placeholder="Password">
+          </div>
+       </div>
+
+      <div class="field">
+         <div class="control">
+            <input class="input is-medium" type="text" name="direction" placeholder="Direction">
+         </div>
+      </div>
+
+
+      <div class="field">
+           <div class="buttons is-centered">
+                <button class="button is-info" type="submit">Apply</button>
+           </div>
+      </div>
+
+       </form>
+
+
+
+</div>
+
+
+
+</div>
+
+{% endblock %}
