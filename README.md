@@ -1,11 +1,11 @@
 # User-Management
-### Introduction
+## Introduction
 
 Hello everyone ! 
 
 :bowtie: 
 
-`This applicaton was developped with The micro-framework Falsk.`
+`This applicaton was developped with`[ the micro-framework Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
 In this repository,I will propose a small example of `user management`.
 
@@ -20,17 +20,23 @@ which the functionality group of which will be the following:
 - Connect a user.
 - Export a user's data in pdf
 
+##Explain the complex functionalities (in terms of processing)
+
 1. Adding users in two ways :
    - Manual Addition.
    - Import of data concerning a set of users from an Excel file.
-     - Condition: Emails are validated in terms of syntax etc. (The contribution of Mailboxlayer API)
+     - Condition: Emails are validated in terms of syntax etc. (The contribution of [Mailboxlayer API](https://mailboxlayer.com/documentation))
 
 2. Authentication :
-   - 
+   - To authenticate a user, I introduced the FLask-login dependency.
+        - To integrate it: 
+         
 
 
-> Introduction
+> Terminal command
 >
 ```
-
+$ pip3 install flask-login
 ```
+The other steps are commented out in the code.
+
