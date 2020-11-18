@@ -22,27 +22,3 @@ which the functionality group of which will be the following:
 
 ##Explain the complex functionalities (in terms of processing)
 
-
-###Adding users in two ways :
-   - Manual Addition.
-   - Import of data concerning a set of users from an Excel file.
-     - Condition: Emails are validated in terms of syntax etc. (The contribution of [Mailboxlayer API](https://mailboxlayer.com/documentation))
-     - To ensure the import, I am in the process of introducing the [Flask-Excel](http://flask.pyexcel.org/en/latest/) dependency.
-###Connect a user :
-   - To connect a user, I introduced the FLask-login dependency.
-   - Flask-Login to manage user sessions.
-        - To integrate it: 
-         
-> Installation
->
-```
-$ pip3 install flask-login
-```
-The other steps are explained in the code.
-
-###Export a user's data in pdf:
-
-##Annex
-
-##Support
-https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login-fr
