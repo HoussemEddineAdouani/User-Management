@@ -1,9 +1,8 @@
 # User-Management
 ## Introduction
 
-Hello everyone ! 
+Hello everyone ! :bowtie: 
 
-:bowtie: 
 
 `This applicaton was developped with`[ the micro-framework Flask](https://flask.palletsprojects.com/en/1.1.x/).
 
@@ -39,8 +38,8 @@ which the functionality group of which will be the following:
           $ pip3 install flask-login
           ```
           > Importations
-          >python
-          ```
+          >
+          ```python
           from flask_login import login_user, login_required, current_user
           ```
          
