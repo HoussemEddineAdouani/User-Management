@@ -51,4 +51,6 @@ The other steps are explained in the code.
    - I used the global `response` variable to manipulate the content of the PDF.
    
 ## Annex
+### Preparation of the work environment
+
 
