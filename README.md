@@ -18,6 +18,7 @@ which the functionality group of which will be the following:
 - Authenticate a user.
 - Connect a user.
 - Export a user's data in pdf.
+- Import Data.
 
 ## Explain the complex functionalities (in terms of processing)
 
